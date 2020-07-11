@@ -14,6 +14,7 @@ source ~/nvimPlugins/pluginsSpecific/Powerline.vim
 source ~/nvimPlugins/pluginsSpecific/Vim_PHP_namespace.vim
 source ~/nvimPlugins/pluginsSpecific/Floaterm.vim
 source ~/nvimPlugins/pluginsSpecific/NerdTree.vim
+source ~/nvimPlugins/pluginsSpecific/Vim_HardTime.vim
 set nocompatible    " be iMproved, required
 "------------ NPM specific
 nmap <leader>ni :!npm install 
@@ -58,9 +59,3 @@ set colorcolumn=80
 nmap <C-N> :nohlsearch<cr>			
 let g:indentLine_setColors = 0
 let g:vim_be_good_floating = 0
-
-
-
-
-
-let g:airline#extensions#tabline#enabled = 1
