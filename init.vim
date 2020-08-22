@@ -1,3 +1,4 @@
+let python_highlight_all=1
 " This is a file designed by LeO for his own easynes
 " You can edit this as per your own taste
 " ----------------------------------------------------------
@@ -15,6 +16,7 @@ source ~/nvimPlugins/pluginsSpecific/Vim_PHP_namespace.vim
 source ~/nvimPlugins/pluginsSpecific/Floaterm.vim
 source ~/nvimPlugins/pluginsSpecific/NerdTree.vim
 source ~/nvimPlugins/pluginsSpecific/Vim_HardTime.vim
+" source ~/nvimPlugins/pluginsSpecific/Jedi.vim
 set nocompatible    " be iMproved, required
 "------------ NPM specific
 nmap <leader>ni :!npm install 
@@ -37,12 +39,6 @@ nmap <C-F>r :%s/
 " --------------------Fuzzy File
 nmap ff :Files<cr>
 "---------------------------------------- Fun stuffs
-imap <C-A> <Esc>ggVG
-imap <C-S> <Esc>:w<cr>i
-nmap <C-A> ggVG
-nmap <C-S> :w<cr>
-vmap <C-A> ggVG
-vmap <C-S> <Esc>:w<cr>
 vmap <leader>s :sort<cr>
 " ------------------------ Coc command explorer
 :nmap <space>e :CocCommand explorer<CR>
@@ -59,3 +55,13 @@ set colorcolumn=80
 nmap <C-N> :nohlsearch<cr>			
 let g:indentLine_setColors = 0
 let g:vim_be_good_floating = 0
+
+
+let g:clap_theme = 'atom-dark-256'
+let g:clap_theme = { 'search_text': {'guifg': 'blue', 'ctermfg': 'blue'} }
+
+
+
+let g:vue_pre_processors = []
+let g:pymode_lint_on_write = 0
+let g:pymode_folding = 1

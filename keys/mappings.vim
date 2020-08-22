@@ -19,8 +19,8 @@ nnoremap <C-z> <esc>
 inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
 
-" TAB in general mode will move to text buffer
-nnoremap <S-TAB> :bprevious<CR>
+" " TAB in general mode will move to text buffer
+" nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
