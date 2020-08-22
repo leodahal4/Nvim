@@ -55,13 +55,8 @@ set colorcolumn=80
 nmap <C-N> :nohlsearch<cr>			
 let g:indentLine_setColors = 0
 let g:vim_be_good_floating = 0
-
-
 let g:clap_theme = 'atom-dark-256'
 let g:clap_theme = { 'search_text': {'guifg': 'blue', 'ctermfg': 'blue'} }
-
-
-
 let g:vue_pre_processors = []
 let g:pymode_lint_on_write = 0
 let g:pymode_folding = 1
