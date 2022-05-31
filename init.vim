@@ -2,19 +2,19 @@ let python_highlight_all=1
 " My NeoVim configuration
 " ----------------------------------------------------------
 " --------------------------------------- Source all the Stuffs
-source ~/nvimPlugins/Plugins.vim
-source ~/nvimPlugins/general/settings.vim
-source ~/nvimPlugins/keys/mappings.vim
-source ~/nvimPlugins/languages/Laravel.vim
-source ~/nvimPlugins/languages/Python.vim
-source ~/nvimPlugins/pluginsSpecific/Airline.vim
-source ~/nvimPlugins/pluginsSpecific/Coc.vim
-source ~/nvimPlugins/pluginsSpecific/CtrlP.vim
-source ~/nvimPlugins/pluginsSpecific/Powerline.vim
-source ~/nvimPlugins/pluginsSpecific/Vim_PHP_namespace.vim
-source ~/nvimPlugins/pluginsSpecific/Floaterm.vim
-source ~/nvimPlugins/pluginsSpecific/NerdTree.vim
-source ~/nvimPlugins/pluginsSpecific/Vim_HardTime.vim
+source ~/Nvim/Plugins.vim
+source ~/Nvim/general/settings.vim
+source ~/Nvim/keys/mappings.vim
+source ~/Nvim/languages/Laravel.vim
+source ~/Nvim/languages/Python.vim
+source ~/Nvim/pluginsSpecific/Airline.vim
+source ~/Nvim/pluginsSpecific/Coc.vim
+source ~/Nvim/pluginsSpecific/CtrlP.vim
+source ~/Nvim/pluginsSpecific/Powerline.vim
+source ~/Nvim/pluginsSpecific/Vim_PHP_namespace.vim
+source ~/Nvim/pluginsSpecific/Floaterm.vim
+source ~/Nvim/pluginsSpecific/NerdTree.vim
+source ~/Nvim/pluginsSpecific/Vim_HardTime.vim
 
 
 set nocompatible    " be iMproved, required
@@ -67,3 +67,6 @@ let g:pymode_folding = 1
 
 " let g:clap_theme = 'atom-dark-256'
 " let g:clap_theme = { 'search_text': {'guifg': 'blue', 'ctermfg': 'blue'} }
+nnoremap <C-S><C-S> :w<CR>
+" Alternate way to quit
+nnoremap <C-Q> :wqa!<CR>

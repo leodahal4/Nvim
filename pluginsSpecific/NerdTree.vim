@@ -7,6 +7,12 @@ let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
 let g:NERDTreeWinSize=30
 let NERDTreeHijackNetrw = 0  " NerdTree Hijack Venigar Default, so turn it off
 let NERDTreeIgnore = ['\.pyc$', '__pycache__', '^node_modules$']
+
+
+let s:rspec_red = 'FE405F'
+let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreePatternMatchHighlightColor['credentials\.yaml$'] = s:rspec_red " sets the color for files ending with _spec.rb
+let g:NERDTreePatternMatchHighlightColor['credentials\.yml$'] = s:rspec_red " sets the color for files ending with _spec.rb
 nmap <LEADER>f :NERDTreeToggle<cr>
 
 " you can add these colors to your .vimrc to help customizing
@@ -26,7 +32,6 @@ nmap <LEADER>f :NERDTreeToggle<cr>
 " let s:green = "8FAA54"
 " let s:lightGreen = "31B53E"
 " let s:white = "FFFFFF"
-" let s:rspec_red = 'FE405F'
 " let s:git_orange = 'F54D27'
 "
 " let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error
@@ -35,8 +40,6 @@ nmap <LEADER>f :NERDTreeToggle<cr>
 " let g:NERDTreeExactMatchHighlightColor = {} " this line is needed to avoid error
 " let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange " sets the color for .gitignore files
 "
-" let g:NERDTreePatternMatchHighlightColor = {} " this line is needed to avoid error
-" let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets the color for files ending with _spec.rb
 "
 " let g:WebDevIconsDefaultFolderSymbolColor = s:beige " sets the color for folders that did not match any rule
 " let g:WebDevIconsDefaultFileSymbolColor = s:blue " sets the color for files that did not match any rule

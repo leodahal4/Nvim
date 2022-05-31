@@ -20,12 +20,12 @@ inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
 
 " " TAB in general mode will move to text buffer
-" nnoremap <S-TAB> :bprevious<CR>
+nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit
-nnoremap <C-Q> :wq!<CR>
+nnoremap <C-Q> :wqa!<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 

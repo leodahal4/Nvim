@@ -1,9 +1,10 @@
 " set leader key
 let mapleader = " "
 filetype off                  " required
-let g:bg="dark"
 let g:airline_theme = 'gruvbox'
 colorscheme gruvbox
+" colorscheme onehalflight
+" let g:airline_theme='onehalfdark'
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
